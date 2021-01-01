@@ -1,5 +1,5 @@
 # GradientDescent_1
-In this repository, linear regression problem is solved by using gradient descent algorithm.
+Linear regression problem is solved by using gradient descent algorithm.
 A straight was fit to the given data.
 Observations and Conclusion:
 Gradient descent algorithm was dependent on learning rate (alpha).
