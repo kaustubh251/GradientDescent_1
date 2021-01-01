@@ -71,7 +71,7 @@ def gradDescent(theta, x, y, alpha):
         theta = theta2
         count2 += 1
     return theta
-print("Insert the number of parameters")
+print("Insert the number of parameters. Please enter two parameters as straight line is a good fit for given data.")
 paramsNumber = int(input())
 theta = []
 i = 0
