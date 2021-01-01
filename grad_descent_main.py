@@ -71,12 +71,21 @@ def gradDescent(theta, x, y, alpha):
         theta = theta2
         count2 += 1
     return theta
-
-theta = [2, 1.5]
-alpha = 0.02
+print("Insert the number of parameters")
+paramsNumber = int(input())
+theta = []
+i = 0
+print("Insert the parameters one by one each on newline")
+for i in range(paramsNumber):
+    theta.append(float(input()))
+print("Insert learning rate")    
+alpha = float(input())
 thetaFinal = gradDescent(theta, x, y, alpha)
+print("The optimized parameters are:")
 print(thetaFinal)
+print("Insert x for which you want f_x")
 Xi = float(input())
 prediction = polynomial(thetaFinal, Xi)
+print("The predicted f_x is:")
 print(prediction)
 
